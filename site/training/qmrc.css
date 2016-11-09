@@ -1,0 +1,11 @@
+a {
+	color: #f1c40f;
+}
+
+.format-link .entry-header a {
+	background: #f1c40f !important;
+}
+
+	.button, input[type="submit"], input[type="button"], .dark button, .dark input[type="submit"], .dark input[type="button"], .light .button, .light input[type="submit"], .light input[type="button"] {
+	background: #f1c40f;
+}
