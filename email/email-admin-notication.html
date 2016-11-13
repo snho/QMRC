@@ -122,6 +122,10 @@
 			background-color: #f3f3f3;
 			padding: 5px;
 		}
+		.white-content {
+			background-color: #eaeaea;
+			padding: 5px;
+		}
 	</style>
 
 	<style type="text/css" media="screen">
@@ -246,11 +250,29 @@
 															</tr>
 															<tr>
 																<td class="white-header">
-																	Cat A&B : {Category A & B Date and Time:6}
-																	<br>Cat H: {Category H Date and Time:9}
-																	<br>Cat C: {Category C Date and Time:7}
-																	<br>Cat D: {Category D Date and Time:8}
-																	<br> Cat M: {Category M Date and Time:10}
+																	<table>
+																	<col width="80">
+																		<tr>
+																			<td><b>Cat A&B: </b></td>
+																			<td>{Category A & B Date and Time:6}</td>
+																		</tr>
+																		<tr class="white-content">
+																			<td ><b>Cat H: </b></td>
+																			<td>{Category H Date and Time:9}</td>
+																		</tr>
+																		<tr>
+																			<td><b>Cat C: </b></td>
+																			<td>Cat C: {Category C Date and Time:7}</td>
+																		</tr>
+																		<tr class="white-content">
+																			<td><b>Cat D: </b></td>
+																			<td>{Category D Date and Time:8}</td>
+																		</tr>
+																		<tr>
+																			<td><b>Cat M: </b></td>
+																			<td>{Category M Date and Time:10}</td>
+																		</tr>
+																	</table>
 																</td>
 															</tr>
 														</table>
@@ -301,7 +323,7 @@
 								<table cellspacing="0" cellpadding="0" class="force-full-width" bgcolor="#ebebeb">
 									<tr>
 										<td style="padding: 0 30px; padding-bottom: 30px;">
-											The amount of <b>{Total:18} AUD</b> is expected from this applicant for their chosen course(s).
+											The amount of <b>{Total:18} AUD</b> is expected from this participant for their chosen course(s).
 											<br>
 										</td>
 									</tr>
