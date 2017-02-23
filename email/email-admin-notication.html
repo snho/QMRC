@@ -8,7 +8,6 @@
 	<!-- Design adapted from https://github.com/kaytcat -->
 
 	<style type="text/css">
-
 		img {
 			max-width: 600px;
 			outline: none;
@@ -121,6 +120,7 @@
 			background-color: #f3f3f3;
 			padding: 5px;
 		}
+
 		.white-content {
 			background-color: #eaeaea;
 		}
@@ -178,9 +178,25 @@
 			}
 		}
 	</style>
+
+	<!-- Hiding the preheader -->
+
+	<style type="text/css">
+		span.preheader {
+			display: none !important;
+		}
+	</style>
+
 </head>
 
+
+
 <body offset="0" class="body" style="padding:0; margin:0; display:block; background:#ffffff; -webkit-text-size-adjust:none" bgcolor="#ffffff">
+
+	<!-- Preheader text -->
+
+	<span class="preheader">{Name (First):1.3} {Name (Last):1.6} has booked a firearms safety course!</span>
+
 	<table align="center" cellpadding="0" cellspacing="0" width="100%" height="100%">
 		<tr>
 			<td align="center" valign="top" style="background-color:#ffffff" width="100%">
@@ -248,27 +264,27 @@
 															<tr>
 																<td class="white-header">
 																	<table>
-																	<col width="80">
-																		<tr>
-																			<td><b>Cat A&B: </b></td>
-																			<td>{Category A & B Date and Time:6}</td>
-																		</tr>
-																		<tr class="white-content">
-																			<td ><b>Cat H: </b></td>
-																			<td>{Category H Date and Time:9}</td>
-																		</tr>
-																		<tr>
-																			<td><b>Cat C: </b></td>
-																			<td>{Category C Date and Time:7}</td>
-																		</tr>
-																		<tr class="white-content">
-																			<td><b>Cat D: </b></td>
-																			<td>{Category D Date and Time:8}</td>
-																		</tr>
-																		<tr>
-																			<td><b>Cat M: </b></td>
-																			<td>{Category M Date and Time:10}</td>
-																		</tr>
+																		<col width="80">
+																			<tr>
+																				<td><b>Cat A&B: </b></td>
+																				<td>{Category A & B Date and Time:6}</td>
+																			</tr>
+																			<tr class="white-content">
+																				<td><b>Cat H: </b></td>
+																				<td>{Category H Date and Time:9}</td>
+																			</tr>
+																			<tr>
+																				<td><b>Cat C: </b></td>
+																				<td>{Category C Date and Time:7}</td>
+																			</tr>
+																			<tr class="white-content">
+																				<td><b>Cat D: </b></td>
+																				<td>{Category D Date and Time:8}</td>
+																			</tr>
+																			<tr>
+																				<td><b>Cat M: </b></td>
+																				<td>{Category M Date and Time:10}</td>
+																			</tr>
 																	</table>
 																</td>
 															</tr>
